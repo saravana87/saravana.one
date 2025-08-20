@@ -171,7 +171,7 @@ export default function SaravanaPortfolio() {
           <div className="mt-10 space-y-10">
             {/* DealCloser Assist */}
             <article className="grid md:grid-cols-2 gap-8 items-center">
-              <img src="https://placehold.co/1200x675/png" alt="DealCloser Assist placeholder" className="rounded-2xl shadow-lg border border-slate-200" />
+              <img src="/images/dealcloser.png" alt="DealCloser Assist placeholder" className="rounded-2xl shadow-lg border border-slate-200" />
               <div>
                 <h3 className="text-2xl font-bold">DealCloser Assist</h3>
                 <ul className="mt-3 space-y-2 text-slate-700">
@@ -191,7 +191,7 @@ export default function SaravanaPortfolio() {
 
             {/* Clinical Summarization */}
             <article className="grid md:grid-cols-2 gap-8 items-center">
-              <img src="https://placehold.co/1200x675/png" alt="Clinical Summarization placeholder" className="rounded-2xl shadow-lg border border-slate-200" />
+              <img src="images/clinical_summarization.png" alt="Clinical Summarization placeholder" className="rounded-2xl shadow-lg border border-slate-200" />
               <div>
                 <h3 className="text-2xl font-bold">Clinical Summarization (POC)</h3>
                 <ul className="mt-3 space-y-2 text-slate-700">
@@ -211,7 +211,7 @@ export default function SaravanaPortfolio() {
 
             {/* Appeal Letter Automation */}
             <article className="grid md:grid-cols-2 gap-8 items-center">
-              <img src="https://placehold.co/1200x675/png" alt="Appeal Letter Automation placeholder" className="rounded-2xl shadow-lg border border-slate-200" />
+              <img src="images/appealletter_1.png" alt="Appeal Letter Automation placeholder" className="rounded-2xl shadow-lg border border-slate-200" />
               <div>
                 <h3 className="text-2xl font-bold">Appeal Letter Automation</h3>
                 <ul className="mt-3 space-y-2 text-slate-700">
