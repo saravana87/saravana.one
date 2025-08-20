@@ -7,8 +7,9 @@ const LINKS = {
   calendly: "https://calendly.com/techiesarava/30min",
   linkedin: "https://www.linkedin.com/in/saravanakumar-subramani-8bb38854/",
   github: "https://github.com/saravana87",
-  yt1: "https://www.youtube.com/watch?v=DKGa9V6M9Vg&list=PLR96MtlaP8iIQXOVbvgA1KApj4LHDWpl0&pp=gAQB",
-  yt2: "https://www.youtube.com/watch?v=Kti61_g6GFM&list=PLR96MtlaP8iK1QmzUCvmdDwLsTqoX7Zea&pp=gAQB",
+  // Use YouTube embed URLs for iframe src (more reliable for embedding)
+  yt1: "https://www.youtube.com/embed/DKGa9V6M9Vg?list=PLR96MtlaP8iIQXOVbvgA1KApj4LHDWpl0",
+  yt2: "https://www.youtube.com/embed/Kti61_g6GFM?list=PLR96MtlaP8iK1QmzUCvmdDwLsTqoX7Zea",
 };
 
 export default function SaravanaPortfolio() {
@@ -258,10 +259,24 @@ export default function SaravanaPortfolio() {
           <h2 className="text-3xl md:text-4xl font-extrabold">Content</h2>
           <div className="mt-8 grid md:grid-cols-2 gap-8">
             <div className="aspect-video rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-              <iframe className="w-full h-full" src={LINKS.yt1} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+              <iframe
+                className="w-full h-full"
+                src={LINKS.yt1}
+                title="Saravana YouTube video 1"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
             <div className="aspect-video rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-              <iframe className="w-full h-full" src={LINKS.yt2} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+              <iframe
+                className="w-full h-full"
+                src={LINKS.yt2}
+                title="Saravana YouTube video 2"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </div>
         </div>
