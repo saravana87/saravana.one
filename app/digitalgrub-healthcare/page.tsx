@@ -47,7 +47,6 @@ export default function DigitalgrubHealthcare() {
       <h2 className="text-2xl font-bold mb-4">🔹 Let’s Connect</h2>
       <ul className="list-none space-y-2">
         <li>📧 saravana@digitalgrub.com</li>
-        <li>🌐 <a href="https://digitalgrub.com" className="text-blue-600 hover:underline">digitalgrub.com</a> | <a href="https://cdiplus.com" className="text-blue-600 hover:underline">cdiplus.com</a></li>
         <li>🔗 <a href="https://www.linkedin.com/in/saravanakumar-subramani-8bb38854/" className="text-blue-600 hover:underline">LinkedIn: saravanakumar-subramani</a></li>
       </ul>
     </div>
