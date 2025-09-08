@@ -72,7 +72,7 @@ export default function SaravanaPortfolio() {
           {/* Replace src with your photo URL when deploying */}
           <div className="absolute -inset-4 -z-10 bg-gradient-to-br from-red-50 to-white rounded-[2rem]" />
           <img
-            src="https://placehold.co/720x900/png"
+            src="images/img_profile.png"
             alt="Saravanakumar Subramani portrait"
             className="w-full h-auto rounded-[2rem] shadow-xl object-cover"
           />
@@ -171,7 +171,7 @@ export default function SaravanaPortfolio() {
           <div className="mt-10 space-y-10">
             {/* DealCloser Assist */}
             <article className="grid md:grid-cols-2 gap-8 items-center">
-              <img src="/images/dealcloser.png" alt="DealCloser Assist placeholder" className="rounded-2xl shadow-lg border border-slate-200" />
+              <img src="/images/dealcloser_demo.png" alt="DealCloser Assist placeholder" className="rounded-2xl shadow-lg border border-slate-200" />
               <div>
                 <h3 className="text-2xl font-bold">DealCloser Assist</h3>
                 <ul className="mt-3 space-y-2 text-slate-700">

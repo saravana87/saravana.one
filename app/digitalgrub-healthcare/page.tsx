@@ -48,6 +48,7 @@ export default function DigitalgrubHealthcare() {
       <ul className="list-none space-y-2">
         <li>📧 saravana@digitalgrub.ws</li>
         <li>🔗 <a href="https://www.linkedin.com/in/saravanakumar-subramani-8bb38854/" className="text-blue-600 hover:underline">LinkedIn: saravanakumar-subramani</a></li>
+        <li>🔗 <a href="https://github.com/saravana87" className="text-blue-600 hover:underline">GitHub: Saravana87</a></li>
       </ul>
     </div>
   );
