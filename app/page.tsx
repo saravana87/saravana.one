@@ -88,8 +88,7 @@ export default function SaravanaPortfolio() {
               I’m an AI application engineer, not a data scientist. I design and deliver
               <span className="font-semibold"> advanced query systems</span>,
               <span className="font-semibold"> LLM pipelines</span>, and robust APIs with a focus on
-              retrieval quality, observability, and performance. No model fine‑tuning services here—
-              I specialize in application engineering and production delivery.
+              retrieval quality, observability, and performance.
             </p>
             <ul className="mt-6 space-y-2 text-slate-700">
               <li>• 14 years overall • 4 years AI & vector DB</li>
