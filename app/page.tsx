@@ -85,15 +85,12 @@ export default function SaravanaPortfolio() {
           <div className="">
             <h2 className="text-3xl md:text-4xl font-extrabold">About</h2>
             <p className="mt-4 text-slate-700 leading-relaxed">
-              I’m an AI application engineer, not a data scientist. I design and deliver
-              <span className="font-semibold"> advanced query systems</span>,
-              <span className="font-semibold"> LLM pipelines</span>, and robust APIs with a focus on
-              retrieval quality, observability, and performance.
+              I’m an experienced AI Engineer and Full-Stack Developer with over 14 years in IT, including 8+ years in AI/ML and NLP. I specialize in building scalable AI applications, deploying LLM-based systems, and integrating cloud platforms like AWS and Azure. With expertise in Python, LlamaIndex, LangChain, and databases like PostgreSQL and pgvector, I deliver impactful solutions in healthcare, finance, and e-commerce domains. Certified in AWS (SAA, Developer, CCP) and Snowflake Core Pro, I focus on retrieval quality, observability, and performance in production-ready systems.
             </p>
             <ul className="mt-6 space-y-2 text-slate-700">
-              <li>• 14 years overall • 4 years AI & vector DB</li>
+              <li>• 14 years overall • 8+ years AI/ML & NLP</li>
               <li>• Certifications: AWS SAA, Developer, CCP • Snowflake Core Pro</li>
-              <li>• Stack: LlamaIndex, FastAPI, Streamlit, PostgreSQL/pgvector, Redis, Next.js</li>
+              <li>• Stack: Python, LlamaIndex, LangChain, OpenAI, FastAPI, Streamlit, PostgreSQL/pgvector, Redis, Next.js, PyTorch, Scikit-learn, AWS Bedrock, Azure AI Services</li>
             </ul>
             <div className="mt-6 flex gap-3">
               <a href={LINKS.linkedin} target="_blank" className="rounded-xl border border-slate-300 px-4 py-2 font-semibold hover:border-slate-400">LinkedIn</a>
@@ -108,6 +105,8 @@ export default function SaravanaPortfolio() {
                 <li>• Hybrid retrieval & filters</li>
                 <li>• Prompt & tool orchestration</li>
                 <li>• Caching & evals</li>
+                <li>• AI Search & Indexing</li>
+                <li>• MLOps Pipelines</li>
               </ul>
             </div>
             <div className="rounded-2xl bg-white border border-slate-200 p-5 shadow-sm">
@@ -117,6 +116,8 @@ export default function SaravanaPortfolio() {
                 <li>• Streamlit prototypes → prod</li>
                 <li>• Docker & CI/CD</li>
                 <li>• Cloudflare, AWS/Azure</li>
+                <li>• Hugging Face Deployment</li>
+                <li>• GitHub Actions Automation</li>
               </ul>
             </div>
           </div>
